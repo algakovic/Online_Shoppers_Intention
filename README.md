@@ -13,7 +13,25 @@ to google slides presentation file
 4.  online_shoppers_intention.csv: Raw CSV file with data
 
 ##  Methodology:
-insert contents here.
+1. **Executive Summary**  
+2. **Import Data**  
+3. **Data Cleansing**  
+4. **Data Exploration**  
+    4.1 Dataset Information  
+    4.2 Feature Information  
+    4.3 Screening for Categorical Variables
+5. **Baseline Model**  
+    5.1 Split and transform the training and test data  
+    5.2 Decision tree model  
+6. **Exploring Improvements on Baseline Model**  
+    6.1 Grid Search CV for Decision tree with Entropy impurity  
+    6.2 Logistic Regression Classifier  
+    6.3 Ensemble Methods - Random Forests  
+7. **Threshold Selection** 
+8. **Testing our Model** 
+9. **Conclusions**  
+10. **Recommendations**
+    
 ##  Key Findings:
 The first baseline Decision Tree model provided a low -insert evaluation - score.
 Very small improvements were made using a combinatory hyperparameter optimisation.
