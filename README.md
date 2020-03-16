@@ -8,7 +8,7 @@ The objective of this project is to predict which visitors are likely to produce
 ##  Key Files:
 1.  [Link](https://docs.google.com/presentation/d/1Cu6vxCA_1aIgoW1ZqArEayFVPDSDD8eRxzvjWMUvT2I/edit?usp=sharing)
 to google slides presentation file
-2.  Online_Shoppers_Intent.pdf: PDF of presentation slides to google slides presentation file: 
+2.  Online_Shoppers_Intent.pdf: PDF of presentation slides
 3.  'Online_Shoppers_Intent'.ipynb: Jupyter Notebook
 4.  online_shoppers_intention.csv: Raw CSV file with data
 
