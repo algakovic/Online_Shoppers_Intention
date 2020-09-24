@@ -36,7 +36,8 @@ to google slides presentation file
 The first baseline Decision Tree model provided a low -insert evaluation - score.
 Very small improvements were made using a combinatory hyperparameter optimisation.
 
-In the image below we can observe that the optimal threshold value given associated costs of outcomes, was very close to the intersection of Precision and Recall scores.
+In the image below we can observe that the optimal threshold value given associated costs of outcomes,   
+was very close to the intersection of Precision and Recall scores.  
 ![image](https://user-images.githubusercontent.com/40424244/94149035-4a530080-fe6f-11ea-8ac0-6afdbe20b96d.png)
 
 
