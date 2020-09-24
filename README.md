@@ -36,6 +36,10 @@ to google slides presentation file
 The first baseline Decision Tree model provided a low -insert evaluation - score.
 Very small improvements were made using a combinatory hyperparameter optimisation.
 
+OPtimal threshold value given costs associatesd of outcomes was very close to intersection of Precision and Recall scores.
+![image](https://user-images.githubusercontent.com/40424244/94149035-4a530080-fe6f-11ea-8ac0-6afdbe20b96d.png)
+
+
 A logistic Regression model performed much better giving a roc_auc score of 0.89.
 Random Forest ensemble began with a roc_auc score of 0.89 but was increased to 0.93 using hyperparameter optimisation through Random and Grid Search CV.
 
