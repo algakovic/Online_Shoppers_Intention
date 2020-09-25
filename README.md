@@ -40,16 +40,16 @@ Below we can get some idea of how important each feature is to the random forest
  
 The top 10 Feature importances are:
 -----------------------------------
-PageValues, Score: 0.27
-ProductRelated_Duration, Score: 0.068
-ExitRates, Score: 0.067
-Administrative_Duration, Score: 0.044
-BounceRates, Score: 0.04
-Informational_Duration, Score: 0.021
-Month_Nov, Score: 0.017
-Region_1, Score: 0.011
-Administrative_0, Score: 0.011
-TrafficType_2, Score: 0.01
+PageValues, Score: 0.27  
+ProductRelated_Duration, Score: 0.068  
+ExitRates, Score: 0.067  
+Administrative_Duration, Score: 0.044  
+BounceRates, Score: 0.04  
+Informational_Duration, Score: 0.021  
+Month_Nov, Score: 0.017  
+Region_1, Score: 0.011  
+Administrative_0, Score: 0.011  
+TrafficType_2, Score: 0.01  
 
 In the image below we can observe that the optimal threshold value given associated costs of outcomes,   
 was very close to the intersection of Precision and Recall scores.  
