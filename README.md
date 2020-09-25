@@ -36,6 +36,21 @@ to google slides presentation file
 The initial scores for the baseline decision tree mdoel: F1: 0.5844, Accuracy: 0.8716, Roc_AUC: 0.7587.
 Very small improvements were made using a combinatory hyperparameter optimisation.
 
+Below we can get some idea of how important each feature is to the random forest model. I have included only the top 10 important features.
+ 
+The top 10 Feature importances are:
+-----------------------------------
+PageValues, Score: 0.27
+ProductRelated_Duration, Score: 0.068
+ExitRates, Score: 0.067
+Administrative_Duration, Score: 0.044
+BounceRates, Score: 0.04
+Informational_Duration, Score: 0.021
+Month_Nov, Score: 0.017
+Region_1, Score: 0.011
+Administrative_0, Score: 0.011
+TrafficType_2, Score: 0.01
+
 In the image below we can observe that the optimal threshold value given associated costs of outcomes,   
 was very close to the intersection of Precision and Recall scores.  
 ![image](https://user-images.githubusercontent.com/40424244/94149035-4a530080-fe6f-11ea-8ac0-6afdbe20b96d.png)
@@ -47,8 +62,15 @@ Random Forest ensemble model returned evaluated best at the end of the project w
 There was a slight increase in model performance when using ensemble models (Random Forest) over Logistic Regression. 
 The Grid Search Parameter optimsation was paramount in obtaining the highest roc_auc score in our random forest model
 
+Feature importances:
+- Page Value was the most important feature according to the random forest model. It represents "the average value for a page that a user visited before landing on the goal page or completing an Ecommerce transaction (or both)."
+- Product related duration was second most important and represents the duration of time spent on product related pages.
+- Exit rage was third most important : "For all pageviews to the page, Exit Rate is the percentage that were the last in the session".
+
 A Key component of our model was incoroporating the costs (penalties for getting predictions wrong or right)
 Once we selected the threshold (0.43) that took those costs into account we were able to obtain :  a Precision score = 0.7 and Recall score = 0.63
 
 ##  Recommendations:
 Based on the model performance we can go ahead and provide the feature engineer team with the data needed to build a chat box model. The Chat Box will certainly benefit from the results of this model but work can be done to increase the model performance.
+
+Feedback to the team can be provided regarding the most important features according to the model. Specifically 'Page Values', 'Exit Rate' and 'Product Related Duration' among a few others would be worth considering to reverse engineer in pursuit of optimising the website and thus increasing the revenue for 'DataScienceDeals.com' 
