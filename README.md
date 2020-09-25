@@ -38,8 +38,7 @@ Very small improvements were made using a combinatory hyperparameter optimisatio
 
 Below we can get some idea of how important each feature is to the random forest model. I have included only the top 10 important features.
  
-The top 10 Feature importances are:
------------------------------------
+### The top 10 Feature importances are:  
 PageValues, Score: 0.27  
 ProductRelated_Duration, Score: 0.068  
 ExitRates, Score: 0.067  
