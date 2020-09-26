@@ -61,15 +61,20 @@ Random Forest ensemble model returned evaluated best at the end of the project w
 There was a slight increase in model performance when using ensemble models (Random Forest) over Logistic Regression. 
 The Grid Search Parameter optimsation was paramount in obtaining the highest roc_auc score in our random forest model
 
-Feature importances:
+Here are the top ten feature importances
 - Page Value was the most important feature according to the random forest model. It represents "the average value for a page that a user visited before landing on the goal page or completing an Ecommerce transaction (or both)."
 - Product related duration was second most important and represents the duration of time spent on product related pages.
-- Exit rage was third most important : "For all pageviews to the page, Exit Rate is the percentage that were the last in the session".
+- Exit rate was third most important : "For all pageviews to the page, Exit Rate is the percentage that were the last in the session".  
+
+![image](https://user-images.githubusercontent.com/40424244/94347784-1b838880-002f-11eb-885e-a8c5630badcf.png)
 
 A Key component of our model was incoroporating the costs (penalties for getting predictions wrong or right)
 Once we selected the threshold (0.43) that took those costs into account we were able to obtain :  a Precision score = 0.7 and Recall score = 0.63
 
 ##  Recommendations:
+Feature selection could be implemented at some stage to reduce dimensionality and allow the model to work with more relevant data as an input. 
+Only 9 of the 400+ features had an importance score of over 0.1
+
 Based on the model performance we can go ahead and provide the feature engineer team with the data needed to build a chat box model. The Chat Box will certainly benefit from the results of this model but work can be done to increase the model performance.
 
 Feedback to the team can be provided regarding the most important features according to the model. Specifically 'Page Values', 'Exit Rate' and 'Product Related Duration' among a few others would be worth considering to reverse engineer in pursuit of optimising the website and thus increasing the revenue for 'DataScienceDeals.com' 
