@@ -19,7 +19,8 @@ to google slides presentation file
 4. **Data Exploration**  
     4.1 Dataset Information  
     4.2 Feature Information  
-    4.3 Screening for Categorical Variables
+    4.3 Screening for Categorical Variables  
+    4.4 Pairwise Associations and correlation of Variables  
 5. **Baseline Model**  
     5.1 Split and transform the training and test data  
     5.2 Decision tree model  
