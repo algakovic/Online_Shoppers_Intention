@@ -70,8 +70,7 @@ There was a slight increase in model performance when using ensemble models (Ran
 
 
 Page Value was the most important feature according to the random forest model. It represents "the average value for a page that a user visited before landing on the goal page or completing an Ecommerce transaction (or both)."  
-Product related duration was second most important and represents the duration of time spent on product related pages.  
-Exit rate was third most important : "For all pageviews to the page, Exit Rate is the percentage that were the last in the session".  
+Product related duration was second most important and represents the duration of time spent on product related pages. Exit rate was third most important : "For all pageviews to the page, Exit Rate is the percentage that were the last in the session".  
 
 ![image](https://user-images.githubusercontent.com/40424244/94539390-109e4300-023d-11eb-8dae-40b453c106ec.png)
 
