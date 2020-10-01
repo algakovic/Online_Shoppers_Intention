@@ -1,7 +1,7 @@
 # Online Shoppers Intent
 
 ## Executive Summary:
-We are assuming the position of business members at DataScienceDeals.com a company that sells courses on Data Science. We have data related to the visitors that come to our site.
+We are assuming the position of data scientists at 'DataScienceDeals.com' a company that sells courses on Data Science. We have data related to the visitors that come to our site.
 
 The objective of this project is to predict which visitors are likely to produce revenue. This will feed into our new 1:1 chat help service feature that will be able to aid potential customers.
 
