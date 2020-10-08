@@ -58,7 +58,7 @@ In the image below we can observe that the optimal threshold value given associa
 
 As you can see the optimal threshold is at a point that favours recall over precision. Which reflects the nature of our business as we want to cpture the highest proportion of customers that come to our site in the model predictions.
 
-An out of box logistic Regression model performed better than the baseline model, giving a roc_auc score of 0.90  
+An out-of-box logistic regression model performed better than the baseline model, giving a roc_auc score of 0.90.
 
 The random forest ensemble model returned evaluated best at the end of the project with a roc_auc score of 0.89 but was increased to 0.933 using hyperparameter optimisation through Random and Grid Search CV (6 iterations).
 
